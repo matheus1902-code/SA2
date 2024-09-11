@@ -11,8 +11,8 @@ export default function PrimeiroComponente(){
     }
     return(
         <p className="paragrafo">
-            {num}
             <button onClick={increment}>+</button>
+            {num}
             <button onClick={decrement}>-</button>
         </p>
     )
